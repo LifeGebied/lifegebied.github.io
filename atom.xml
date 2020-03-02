@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lifegebied.github.io</id>
     <title>生活版图</title>
-    <updated>2020-03-02T08:58:42.776Z</updated>
+    <updated>2020-03-02T08:59:53.555Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lifegebied.github.io"/>
     <link rel="self" href="https://lifegebied.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://lifegebied.github.io/post/grandpasnewyear">
         </link>
         <updated>2020-03-02T08:51:46.000Z</updated>
-        <content type="html"><![CDATA[<p>本文作者是***Oiaki***<br>
+        <content type="html"><![CDATA[<p>本文作者是<strong>Oiaki</strong><br>
 本文是 <strong>「月台」</strong> 的一篇短篇故事</p>
 <hr>
 <h2 id="爷爷的眼睛">爷爷的眼睛</h2>
