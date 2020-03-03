@@ -1,102 +1,97 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>我也许是一个扮清醒的白痴吧 | 生活版图</title>
-<meta name="description" content="We are all in the gutter,some of us look at the stars.">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
+<meta name="description" content="We are all in the gutter,some of us look at the stars." />
+<link rel="shortcut icon" href="https://lifegebied.github.io/favicon.ico?v=1583211342479">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lifegebied.github.io/favicon.ico?v=1583211267172">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://lifegebied.github.io/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://lifegebied.github.io">
-        <img class="avatar" src="https://lifegebied.github.io/images/avatar.png?v=1583211267172" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://lifegebied.github.io">
-        <h1 class="site-title">生活版图</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://lifegebied.github.io">
+  <img class="avatar" src="https://lifegebied.github.io/images/avatar.png?v=1583211342479" alt="">
+  </a>
+  <h1 class="site-title">
+    生活版图
+  </h1>
+  <p class="site-description">
+    We are all in the gutter,some of us look at the stars.
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://lifegebied.github.io/post/donate/" class="menu">
+          捐助
+        </a>
+      
+    
+      
+        <a href="https://lifegebied.github.io/post/project/" class="menu">
+          项目
+        </a>
+      
+    
+      
+        <a href="https://lifegebied.github.io/post/discover-something-new/" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="https://lifegebied.github.io/post/donate/" class="menu purple-link">
-            捐助
-          </a>
-        
-      
-        
-          <a href="https://lifegebied.github.io/post/project/" class="menu purple-link">
-            项目
-          </a>
-        
-      
-        
-          <a href="https://lifegebied.github.io/post/discover-something-new/" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
         <div class="post-detail">
-          
-          <h2 class="post-title">我也许是一个扮清醒的白痴吧</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-02-23</span>
-            
+          <article class="post">
+            <h2 class="post-title">
+              我也许是一个扮清醒的白痴吧
+            </h2>
+            <div class="post-info">
               <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://lifegebied.github.io/tag/tk6x8TkU6">
-                    除以零
-                    
-                  </a>
-                
+                2020-02-23
               </span>
+              <span>
+                1 min read
+              </span>
+              
+                <a href="https://lifegebied.github.io/tag/tk6x8TkU6" class="post-tag">
+                  # 除以零
+                </a>
+              
+            </div>
             
-          </div>
-          <div class="post-content">
-            <p>本文作者是<strong>蘇味道</strong><br>
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>本文作者是<strong>蘇味道</strong><br>
 本文是 <strong>时代&amp;生活</strong> 的一篇通讯</p>
 <hr>
 <p>近日看到一位微博用户李檬萌说：</p>
@@ -115,49 +110,66 @@
 <p>我不知道为什么有人会承认自己的观点是阴谋论并且以它为傲，甚至攻击别人是所谓的「装清醒的白痴」。如果只是因为认为什么灾难都是美国造成的，那么白痴到底是谁就不言自明了。为什么我们自己做的不够好，却还有资格去趾高气扬地指控他人；为什么别的国家引用我国诗歌表达关心和提供帮助，我们却在不停地怀疑对方是不是有什么邪恶的目的；为什么在某些国家作出撤侨这种符合国际法和情理的措施时，我们的有关部门却指手划脚；为什么我们责难西方国家歧视中国人，国内社交媒体上充满恶意，对于武汉等重灾区歧视和中伤的言论还不被管理，反而是说真话的人别压制，发出的不一样声音被静音。</p>
 <p>那么，我愿意当一个「扮清醒的白痴」。</p>
 
-          </div>
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
         </div>
 
         
-      </div>
 
-      
+        
 
-      <div class="site-footer">
-  <div class="slogan">We are all in the gutter,some of us look at the stars.</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Github</a> | <a class="rss" href="https://lifegebied.github.io/atom.xml" target="_blank">RSS</a>
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Github</a> | 
+  <a class="rss" href="https://lifegebied.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
+<script>
+  hljs.initHighlightingOnLoad()
 
-    </div>
-    <script type="application/javascript">
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-hljs.initHighlightingOnLoad()
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      console.log('section.offsetHeight', section.offsetHeight);
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
 
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
